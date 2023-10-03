@@ -1,0 +1,39 @@
+{
+    "decode": {
+        "status": 400,
+        "data": {
+            "result": "OK",
+            "action": "register-credit-card"
+        }
+    },
+    "decode-error": {
+        "status": 400,
+        "data": {
+            "result": "KO",
+            "redirectURL": "https://mipendpoint.it?t=ebcjwe"
+        }
+    },
+    "register": {
+        "status": 200,
+        "data": {
+            "result": "OK",
+            "shopLogin": "TIM_123",
+            "account": "email@email.it",
+            "encResult": "LDASDJJD323njhy323"
+        }
+    },
+    "register-var": {
+        "status": 200,
+        "data": {
+            "result": "OK",
+            "redirectURL": "https://mipendpoint.it?t=ebcjwe"
+        }
+    },
+    "register-error": {
+        "status": 400,
+        "data": {
+            "result": "KO",
+            "redirectURL": "https://mipendpoint.it?t=ebcjwe"
+        }
+    }
+}

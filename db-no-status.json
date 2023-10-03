@@ -1,0 +1,24 @@
+{
+    "decode": {
+        "result": "OK",
+        "action": "register-credit-card"
+    },
+    "decode-error": {
+        "result": "ERROR",
+        "redirectURL": "https://mipendpoint.it?t=ebcjwe"
+    },
+    "register": {
+        "result": "OK",
+        "shopLogin": "TIM_123",
+        "account": "email@email.it",
+        "encResult": "LDASDJJD323njhy323"
+    },
+    "register-var": {
+        "result": "OK",
+        "redirectURL": "https://mipendpoint.it?t=ebcjwe"
+    },
+    "register-error": {
+        "result": "KO",
+        "redirectURL": "https://mipendpoint.it?t=ebcjwe"
+    }
+}
